@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="mainArea">
+      <div class="container">
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <button id="showHide">Show and Hide</button>
+        <button id="fadeIn">Fade In</button>
+        <button id="fadeOut">Fade Out</button>
+        <button id="fadeInOut">Fade In and Out</button>
+        <button id="slideUp">Slide Up</button>
+        <button id="slideDown">Slide Down</button>
+        <button id="slideUpDown">Slide Up Down</button>
+        <button id="addNewBox">Add New Box</button>
+        <button id="removeNewBox">Remove New Box</button>
+        <button id="addRemoveBox">Add Remove Box</button>
+        <div class="box"></div>
+
+        <div class="row justify-content-between text-white mt-5">
+          <div class="col-lg-3">
+            <div class="item days py-5 bg-success text-center">
+              <h1 class="fs-1 counter">2026</h1>
+              <p class="fs-3">Year</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="item days py-5 bg-success text-center">
+              <h1 class="fs-1 counter">10</h1>
+              <p class="fs-3">Months</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="item days py-5 bg-success text-center">
+              <h1 class="fs-1 counter">40</h1>
+              <p class="fs-3">Weeks</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="item days py-5 bg-success text-center">
+              <h1 class="fs-1 counter"><span class="counter">190</span></h1>
+              <p class="fs-3">Days</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="countdown text-center bg-info pt-5 mb-0">
+  <h1 id="headline">Countdown to my birthday</h1>
+  <div id="countdown">
+    <ul>
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
+  <div id="content" class="emoji">
+    <span>🥳</span>
+    <span>🎉</span>
+    <span>🎂</span>
+  </div>
+</div>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
